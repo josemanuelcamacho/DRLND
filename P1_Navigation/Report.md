@@ -1,14 +1,19 @@
-# REPORT
+[//]: # (Image References)
+
+[image1]: https://github.com/josemanuelcamacho/DRLND/edit/master/P1_Navigation/scores.png "Score per episode"
+
+
+# REPORT: P1 Navigation
 
 
 ## Learning Algorithm
-	 
+
 The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
 The chosen algorithm to solve the environment is MLP (multi-layer perceptron) with 3 layers of input/output sizes:
 
-- Input Layer: (state_size, 8*state_size)
-- Hidden Layer 1: (8*state_size, 4*state_size)
-- Hiden Layer 2: (4*state_size, action_size)
+- Input Layer: (state_size, 8 * state_size)
+- Hidden Layer 1: (8 * state_size, 4 * state_size)
+- Hiden Layer 2: (4 * state_size, action_size)
 - Output Layer: (action_size, action_size)
 
 Activation function is ReLU for input and hidden layers.
@@ -25,8 +30,9 @@ Following hyperparameters are used along with an Adam Optimizer for weight updat
 
 ## Plot of Rewards
 	
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
+Following plot shows rewards per episode. It is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13 before 1800th episode is reached.
 
+![Score per episode][image1]
 
 ## Ideas for Future Work
 
