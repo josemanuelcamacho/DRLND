@@ -27,7 +27,7 @@ Following hyperparameters are used along with an Adam Optimizer for weight updat
 	
 Following plot shows rewards per episode. It is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13 before 1800th episode is reached.
 
-<img src="https://raw.githubusercontent.com/josemanuelcamacho/DRLND/master/P1_Navigation/score.png" width="100px" height="100px">
+<img src="https://raw.githubusercontent.com/josemanuelcamacho/DRLND/master/P1_Navigation/score.png" width="50%" height="20%">
 
 ## Ideas for Future Work
 
