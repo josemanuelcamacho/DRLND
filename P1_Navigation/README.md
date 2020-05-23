@@ -37,6 +37,14 @@ conda create -f environment.yml
 conda activate drlnd
 ``````
 
+This repository already contains the environment ready for Mac OSX. Download the environment that matches your operating system using the following links:
+- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
+- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
+- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
+- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
+
+Then, place the file in the `DRLND/P1_Navigation/` folder in the working folder, and unzip (or decompress) the file.
+
 Start a Jupyter session and check that you can see the `Navigation.ipynb` file:
 
 ``````sh
@@ -48,12 +56,6 @@ jupyter notebook
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 
-This repository already contains the environment ready for Mac OSX. Download the environment that matches your operating system using the following links:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
-
-Then, place the file in the `DRLND/P1_Navigation/` folder in the working folder, and unzip (or decompress) the file. Next, make sure you update the path to 'Banana' environment according to the instructions given in the notebook before second cell.
+Make sure you update the path to 'Banana' environment according to the instructions given in the notebook before second cell.
 
 Run cells until you reach the section 'FINAL AGENT' which is reserved to see the best trained agent in action. Before you run cells in this 'FINAL AGENT' section, make sure you are pointing to the right 'pth' file, i.e., 'checkpoint_<best.score>.pth'.
