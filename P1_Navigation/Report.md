@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/josemanuelcamacho/DRLND/edit/master/P1_Navigation/scores.png "Score per episode"
+[image1]: https://github.com/josemanuelcamacho/DRLND/edit/master/P1_Navigation/score.png "Score per episode"
 
 
 # REPORT: P1 Navigation
