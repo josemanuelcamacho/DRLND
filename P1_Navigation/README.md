@@ -33,7 +33,7 @@ Enter into the cloned folder and create a conda environment with the packages in
 
 ``````sh
 cd DRLND/P1_Navigation
-conda create -n drlnd -f environment.yml python=3.6
+conda create -f environment.yml
 conda activate drlnd
 ``````
 
