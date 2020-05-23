@@ -1,8 +1,3 @@
-[//]: # (Image References)
-
-[image1]: https://github.com/josemanuelcamacho/DRLND/edit/master/P1_Navigation/score.png "Score per episode"
-
-
 # REPORT: P1 Navigation
 
 
@@ -32,7 +27,7 @@ Following hyperparameters are used along with an Adam Optimizer for weight updat
 	
 Following plot shows rewards per episode. It is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13 before 1800th episode is reached.
 
-![Score per episode][image1]
+![Score per episode](https://github.com/josemanuelcamacho/DRLND/edit/master/P1_Navigation/score.png)
 
 ## Ideas for Future Work
 
