@@ -1,4 +1,4 @@
-# DRLND: Projects to complete Udacity's Deep Reinforcement Learning NanodegreeProject 1: Navigation
+# DRLND: Udacity's Deep Reinforcement Learning Nanodegree
 -----------
 This repository contains my solution to the course assignments.
 
