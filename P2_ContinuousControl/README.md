@@ -73,6 +73,6 @@ Follow the instructions in `Continuous_Control.ipynb` to get started with traini
 
 Make sure you update the path to 'Reacher' environment according to the instructions given in the notebook before second cell.
 
-Run cells down until Section 3. If you are already familiar, skip Section 3 and jump directly into Section 4 to train the agent. You can run my version using the weights in this repository and the code in section 5. 
+Run cells down until Section 3. If you are already familiar with the Unity environment, skip Section 3 and jump directly into Section 4 to train the agent. You can run my version using the weights in this repository and the code in section 5. 
 
 Before you run cells in '5. Play Best Agent' section, make sure you are pointing to the right 'pth' file, i.e., 'checkpoint_<best.score>.pth'. Provided weights are trained with GPU, notice that loading is for CPU, instead. 
