@@ -58,9 +58,9 @@ This repository already contains the environment ready for Mac OSX. Download the
         - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
         - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
         
-Then, place the file in the `DRLND/P1_Navigation/` folder in the working folder, and unzip (or decompress) the file.
+Then, place the file in the `DRLND/P2_ContinuousControl/` folder in the working folder, and unzip (or decompress) the file.
 
-Start a Jupyter session and check that you can see the `Navigation.ipynb` file:
+Start a Jupyter session and check that you can see the `Continuous_Control.ipynb` file:
 
 ``````sh
 jupyter notebook
