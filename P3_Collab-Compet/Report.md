@@ -40,7 +40,7 @@ Following hyperparameters are used along with an Adam Optimizer for weight updat
 
 ## Plot of Rewards
 	
-Following plot shows rewards per episode. It is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +30 and hold it.
+Following plot shows rewards per episode. It is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +0.5 and hold it.
 
 <img src="https://raw.githubusercontent.com/josemanuelcamacho/DRLND/master/P3_Collab-Compet/score.png" width="50%" height="20%">
 
